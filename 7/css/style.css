@@ -2037,13 +2037,8 @@ button:focus-visible {
 .product-cards {
     margin: 0 auto;
     max-width: 1140px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-around;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
@@ -2058,22 +2053,17 @@ button:focus-visible {
 }
 
 .product:hover {
-    -webkit-transition: -webkit-transform 0.3s;
     transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
     transition: transform 0.3s, -webkit-transform 0.3s;
-    -webkit-transform: scale(1.03);
     transform: scale(1.03);
 }
 
 .product:hover .product__img {
-    -webkit-filter: brightness(50%);
     filter: brightness(50%);
 }
 
 .product:hover .product__add {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
@@ -2112,11 +2102,7 @@ button:focus-visible {
     width: 139px;
     height: 44px;
     border: 1px solid #ffffff;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     font-weight: 400;
     font-size: 14px;
@@ -2126,7 +2112,6 @@ button:focus-visible {
 }
 
 .product__add:hover {
-    -webkit-box-shadow: 0 0 5px;
     box-shadow: 0 0 5px;
 }
 
@@ -2190,13 +2175,11 @@ button:focus-visible {
     right: 0;
     padding: 37px 32px;
     background: #ffffff;
-    -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
     width: 234px;
     height: 768px;
     opacity: 0;
     visibility: hidden;
-    -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s;
     z-index: 1;
 }
