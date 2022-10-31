@@ -2226,6 +2226,28 @@ button:focus-visible {
     background-color: #F16D7F;
 }
 
+.error-msg {
+    color: red;
+    margin: 10px 0;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+.valid {
+    border: 2px solid green;
+}
+
+.cart_second_adres {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 57px 0;
+    height: 272px;
+}
+
 @media (max-width:1920px) {
     .other {
         font-size: 0;
